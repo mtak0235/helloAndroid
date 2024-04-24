@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="이름"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:hint="이름을 입력하세요" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="이메일"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:hint="이메일을 입력하세요"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="전화번호"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:hint="전화번호를 입력하세요"
+            android:inputType="phone" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:text="제출"
+            android:layout_span="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+    </TableRow>
+
+</TableLayout>

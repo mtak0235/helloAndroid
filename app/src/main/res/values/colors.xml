@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#1C1678</color>
+    <color name="soft_purple">#8576FF</color>
+    <color name="sky_blue">#7BC9FF</color>
+</resources>
